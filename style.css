@@ -1,0 +1,60 @@
+.header {
+  text-align: center;
+}
+
+.complaint-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn {
+  padding: 5px 10px;
+  background-color: darkblue;
+  color: white;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: tomato;
+}
+
+.btn-disable {
+  pointer-events: none;
+}
+
+#input {
+  padding: 5px 0;
+}
+
+.list-container {
+  width: 45vw;
+  margin-top: 1vh;
+}
+
+.item-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px auto;
+  padding: 5px 0;
+}
+
+.response {
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: rgb(145, 11, 11);
+  color: white;
+}
+
+.response:hover {
+  background-color: orange;
+  padding: 7px 10px;
+}
+
+.item {
+  list-style: none;
+}
+
+.response-container {
+  display: none;
+}
